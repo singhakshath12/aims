@@ -4,6 +4,7 @@
 # Experience, Salary will be used for imputation since they have missing values
 
 
+```python
 data = {
     'ID': [1, 2, 3, 4, 5, 6, 7],
     'Department': ['HR', 'IT', 'Finance', 'HR', 'IT', 'Marketing', 'Finance'],
@@ -11,7 +12,7 @@ data = {
     'Gender': ['Male', 'Female', 'Female', 'Male', 'Male', 'Female', 'Male'],
     'Experience (Years)': [2, 5, np.nan, 3, 6, np.nan, 7],
     'Salary': [35000, 60000, 75000, np.nan, np.nan, 55000, 80000],
-    'City': ['Delhi', 'Mumbai', 'Kolkata', 'Delhi', 'Chennai', 'Mumbai', 'Kolkata']
+    'City': ['Delhi', 'Mumbai', 'Kolkata', 'Delhi', 'Chennai', 'Mumbai', 'Kolkata'],
     'Job Position': ['Junior', 'Senior', 'Manager', 'Junior', 'Senior', 'Junior', 'Manager'],
     'Performance Rating': ['Good', 'Excellent', 'Average', 'Poor', 'Good', 'Excellent', 'Good']
 }
