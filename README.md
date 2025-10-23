@@ -1,4 +1,4 @@
-data = {
+#this is data generated from chatgpt specifically for imputation, one hot encodingdata = {
     'ID': [1, 2, 3, 4, 5, 6, 7],
     'Department': ['HR', 'IT', 'Finance', 'HR', 'IT', 'Marketing', 'Finance'],
     'Education': ['Bachelor', 'Master', 'PhD', 'Bachelor', 'Bachelor', 'Master', 'Bachelor'],
